@@ -1,0 +1,3 @@
+Legacy: 1GwHjDshbvqqbz6iQQGJvZ4SC3vqRF6Nqk
+Bech32: bc1qt0cet999ytzj9lau5g0jnq5sd8t7lhkjmlqaq2
+Bech32m: bc1pmljx3e3kt9rwdp35p9qvxxcs78np8dkuew5jhj7pywv2yj5u99as78scjt
