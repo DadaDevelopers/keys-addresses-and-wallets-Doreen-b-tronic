@@ -1,0 +1,9 @@
+Why should a wallet developer prefer deterministic wallets over non deterministic wallets
+backup simplicity, reproducibility, privacy control, and scalable key management
+Single backup (mnemonic/seed): deterministic wallets let you back up a single mnemonic or seed and recover all keys/addresses. With non-deterministic (random) wallets you must back up every private key you ever generated making its user experience unwanted 
+Deterministic derivation allows hierarchical organization: accounts, change chains, multiple addresses easy to follow and represent with standard derivation paths.
+Compatibility & standards: BIP39/BIP44/BIP84/BIP86 are widely adopted. Means multi-wallet restore across implementations.
+Watch-only / limited access workflows: by giving out extended public keys (xpub) you can have servers generate addresses without giving them private keys.
+Deterministic rotation & privacy: you can generate huge sets of fresh addresses deterministically and index them; good for address reuse avoidance while still being able to recover everything from the seed.
+Better UX for users — one phrase (mnemonic) vs many key files.
+Key isolation control: with hardened derivation you can create safe zones in the tree to reduce risk from certain leaks.
